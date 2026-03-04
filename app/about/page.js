@@ -35,11 +35,11 @@ export default function AboutUs() {
     <>
       {/* SEO Meta Tags */}
       <Head>
-        <title>आमच्याबद्दल - श्री ॲग्रो कृषी सेवा केंद्र | सायगाव (बगळी) जळगांव</title>
-        <meta name="description" content="श्री ॲग्रो कृषी सेवा केंद्र - मराठी शाळेजवळ, बँक ऑफ बडोदा समोर सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव येथील विश्वसनीय कृषी सेवा केंद्र. बियाणे, खते, पोषण, संरक्षण साधने आणि हार्डवेअर उत्पादने उपलब्ध. शेतकऱ्यांसाठी एक विश्वसनीय भागीदार." />
-        <meta name="keywords" content="श्री ॲग्रो कृषी सेवा केंद्र, सायगाव, बगळी, चाळीसगांव, जळगांव, कृषी उत्पादने, बियाणे, खते, कीटकनाशके, शेती साधने, महाराष्ट्र" />
-        <meta property="og:title" content="आमच्याबद्दल - श्री ॲग्रो कृषी सेवा केंद्र" />
-        <meta property="og:description" content="श्री ॲग्रो कृषी सेवा केंद्र - सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव येथील विश्वसनीय कृषी सेवा केंद्र" />
+        <title>आमच्याबद्दल - योगेश कृषी सेवा केंद्र | किनगाव अहमदपूर</title>
+        <meta name="description" content="योगेश कृषी सेवा केंद्र - किनगाव ता. अहमदपूर जि. लातूर येथील विश्वसनीय कृषी सेवा केंद्र. बियाणे, खते, पोषण, संरक्षण साधने आणि हार्डवेअर उत्पादने उपलब्ध. शेतकऱ्यांसाठी एक विश्वसनीय भागीदार." />
+        <meta name="keywords" content="योगेश कृषी सेवा केंद्र, किनगाव, अहमदपूर, लातूर, कृषी उत्पादने, बियाणे, खते, कीटकनाशके, शेती साधने, महाराष्ट्र" />
+        <meta property="og:title" content="आमच्याबद्दल - योगेश कृषी सेवा केंद्र" />
+        <meta property="og:description" content="योगेश कृषी सेवा केंद्र - किनगाव ता. अहमदपूर जि. लातूर येथील विश्वसनीय कृषी सेवा केंद्र" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="/about" />
       </Head>
@@ -51,17 +51,17 @@ export default function AboutUs() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "श्री ॲग्रो कृषी सेवा केंद्र",
+            "name": "योगेश कृषी सेवा केंद्र",
             "description": "कृषी उत्पादने, बियाणे, खते, संरक्षण साधने आणि हार्डवेअर उपलब्ध",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "मराठी शाळेजवळ, बँक ऑफ बडोदा समोर सायगाव (बगळी)",
-              "addressLocality": "चाळीसगांव",
+              "streetAddress": "किनगाव तालुका अहमदपूर मध्ये ",
+              "addressLocality": "अहमदपूर ",
               "addressRegion": "महाराष्ट्र",
-              "postalCode": "425102",
+              "postalCode": "423515",
               "addressCountry": "IN"
             },
-            "telephone": shopData?.shop_number ? `+91${shopData.shop_number}` : "+919850703747",
+            "telephone": shopData?.shop_number ? `+91${shopData.shop_number}` : "+91 9623127748",
             "openingHours": ["Mo-Sa 09:00-19:00", "Su 09:00-13:00"],
             "priceRange": "₹₹",
             "url": typeof window !== 'undefined' ? window.location.origin : "",
@@ -97,13 +97,13 @@ export default function AboutUs() {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-8">
             <div className="bg-gradient-to-r from-[#177B3B] to-[#01582E] text-white p-8 text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                श्री ॲग्रो कृषी सेवा केंद्र
+                योगेश कृषी सेवा केंद्र
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-2">
-                मराठी शाळेजवळ, बँक ऑफ बडोदा समोर
+                मुपो किनगाव 
               </p>
               <p className="text-lg text-white/80">
-                सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव, महाराष्ट्र
+                किनगाव, ता. अहमदपूर, जि. लातूर , महाराष्ट्र
               </p>
             </div>
 
@@ -115,7 +115,7 @@ export default function AboutUs() {
                   आमचे ध्येय
                 </h2>
                 <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                  श्री ॲग्रो कृषी सेवा केंद्र हे सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव येथील एक अग्रगण्य आणि विश्वसनीय कृषी सेवा केंद्र आहे. 
+                  योगेश कृषी सेवा केंद्र हे किनगाव ता. अहमदपूर जि. लातूर येथील एक अग्रगण्य आणि विश्वसनीय कृषी सेवा केंद्र आहे. 
                   आम्ही शेतकऱ्यांना उच्च दर्जाच्या कृषी उत्पादनांची पुरवठा करून त्यांच्या शेती व्यवसायात यशस्वी होण्यास मदत करतो.
                 </p>
                 <p className="text-gray-700 leading-relaxed text-lg">
@@ -261,10 +261,10 @@ export default function AboutUs() {
                     <div>
                       <h3 className="font-bold text-gray-800 mb-1">पत्ता</h3>
                       <p className="text-gray-700 text-lg">
-                        श्री ॲग्रो कृषी सेवा केंद्र<br />
-                        मराठी शाळेजवळ, बँक ऑफ बडोदा समोर<br />
-                        सायगाव (बगळी) ता. चाळीसगांव<br />
-                        जि. जळगांव, महाराष्ट्र, भारत
+                        योगेश कृषी सेवा केंद्र<br />
+                        किनगाव मध्ये <br />
+                        किनगाव ता. अहमदपूर<br />
+                        जि. लातूर, महाराष्ट्र, भारत
                       </p>
                     </div>
                   </div>
@@ -325,7 +325,7 @@ export default function AboutUs() {
                 <Users className="w-16 h-16 text-[#177B3B] mx-auto mb-4" />
                 <h2 className="text-2xl font-bold text-gray-800 mb-3">आमची वचनबद्धता</h2>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  श्री ॲग्रो कृषी सेवा केंद्र - शेतकऱ्यांच्या समृद्धीसाठी तुमचा विश्वासू भागीदार!<br />
+                  योगेश कृषी सेवा केंद्र - शेतकऱ्यांच्या समृद्धीसाठी तुमचा विश्वासू भागीदार!<br />
                   आम्ही शेतकऱ्यांच्या प्रत्येक गरजेची काळजी घेतो आणि त्यांच्या यशासाठी सतत प्रयत्नशील आहोत.
                 </p>
               </div>
