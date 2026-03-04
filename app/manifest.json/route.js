@@ -1,9 +1,9 @@
 // PWA manifest route
 export async function GET() {
   const manifest = {
-    name: 'श्री ॲग्रो कृषी सेवा केंद्र',
-    short_name: 'श्री ॲग्रो कृषी',
-    description: 'कृषी उत्पादने, बियाणे, खते, संरक्षण साधने - सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव, महाराष्ट्र',
+    name: 'योगेश कृषी सेवा केंद्र',
+    short_name: 'योगेश अग्रो कृषी',
+    description: 'कृषी उत्पादने, बियाणे, खते, संरक्षण साधने - किनगाव ता. अहमदपूर जि. लातूर, महाराष्ट्र',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
