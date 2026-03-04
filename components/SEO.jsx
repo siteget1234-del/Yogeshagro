@@ -7,9 +7,9 @@ import Head from 'next/head';
  * @param {Object} props - SEO properties
  */
 export default function SEO({
-  title = 'श्री ॲग्रो कृषी सेवा केंद्र - सायगाव (बगळी) चाळीसगांव जळगांव',
-  description = 'कृषी उत्पादने, बियाणे, खते, संरक्षण साधने - सायगाव (बगळी) ता. चाळीसगांव जि. जळगांव, महाराष्ट्र',
-  keywords = 'कृषी, बियाणे, खते, संरक्षण साधने, सायगाव, बगळी, चाळीसगांव, जळगांव, महाराष्ट्र, शेती, agriculture, seeds, fertilizers',
+  title = 'योगेश कृषी सेवा केंद्र - किनगाव अहमदपूर',
+  description = 'कृषी उत्पादने, बियाणे, खते, संरक्षण साधने - किनगाव ता. अहमदपूर जि. लातूर, महाराष्ट्र',
+  keywords = 'कृषी, बियाणे, खते, संरक्षण साधने, किनगाव, अहमदपूर, लातूर, महाराष्ट्र, शेती, agriculture, seeds, fertilizers',
   ogImage = '/logo.png',
   ogType = 'website',
   canonicalUrl,
@@ -35,7 +35,7 @@ export default function SEO({
       <meta property=\"og:title\" content={title} />
       <meta property=\"og:description\" content={description} />
       <meta property=\"og:image\" content={`${baseUrl}${ogImage}`} />
-      <meta property=\"og:site_name\" content=\"श्री ॲग्रो कृषी सेवा केंद्र\" />
+      <meta property=\"og:site_name\" content=\"योगेश कृषी सेवा केंद्र\" />
       <meta property=\"og:locale\" content=\"mr_IN\" />
       
       {/* Twitter */}
@@ -50,7 +50,7 @@ export default function SEO({
       <meta name=\"mobile-web-app-capable\" content=\"yes\" />
       <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />
       <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\" />
-      <meta name=\"apple-mobile-web-app-title\" content=\"श्री ॲग्रो कृषी\" />
+      <meta name=\"apple-mobile-web-app-title\" content=\"योगेश कृषी\" />
       
       {/* Performance hints */}
       <link rel=\"dns-prefetch\" href=\"https://qdxsvknytevymbuvnpct.supabase.co\" />
